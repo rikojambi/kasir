@@ -1,0 +1,23 @@
+{
+  "name": "aplikasi-kasir-ukk",
+  "version": "1.0.0",
+  "description": "Aplikasi Kasir UKK RPL 2023/2024 - Sistem Client Server Berbasis Web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "kasir",
+    "pos",
+    "ukk-rpl",
+    "rekayasa-perangkat-lunak"
+  ],
+  "author": "Peserta UKK RPL",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.3.0"
+  }
+}
